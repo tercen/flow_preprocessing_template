@@ -1,0 +1,234 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "a140fd90-66ff-11f0-9f08-af610394dc37",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 184000,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "0da84fe4-ef1a-4ef0-b0c6-9abe5fd0ee2a",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "54531cd4-5267-4c2f-98a3-3f026c48f021",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0f164aef-ee82-40cd-9249-ffc2aafe2229",
+   "name": "logicle.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/a9/38/a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b",
+ "relation": {
+  "kind": "Relation",
+  "id": "1203d621-4a10-43ba-9e09-3e554fd511e4"
+ },
+ "size": 1700128,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "9d764eff-cf4d-4575-a0a0-1c684d3c1867",
+   "relation": {
+    "kind": "SimpleRelation",
+    "id": "458d710adf152de182d4fe0c4300d086b14fdeb05732c4840d753056af50dc7c",
+    "index": 0
+   },
+   "names": [
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "LIVE DEAD Blue-A",
+    "BUV496-A",
+    "BUV615-A",
+    "BUV563-A",
+    "BUV661-A",
+    "BUV737-A",
+    "BUV805-A",
+    "BV421-A",
+    "Super Bright 436-A",
+    "eFluor 450-A",
+    "BV480-A",
+    "BV510-A",
+    "Pacific Orange-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV750-A",
+    "BV785-A",
+    "BB515-A",
+    "FITC-A",
+    "Spark Blue 550-A",
+    "PerCP-A",
+    "PerCP-Cy5.5-A",
+    "PerCP-eFluor 710-A",
+    "PE-Fire810-A",
+    "PE-A",
+    "CF568-A",
+    "PE-Dazzle594-A",
+    "PE-Alexa Fluor 610-A",
+    "PE-Cy5-A",
+    "PE-Alexa Fluor 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 647-A",
+    "Spark NIR685-A",
+    "APC-R700-A",
+    "APC-H7-A",
+    "APC-Fire810-A"
+   ],
+   "valueName": "fcs.value",
+   "variableName": "fcs.variable",
+   "valueType": "double",
+   "gatherType": ""
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "event_id",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "fcs.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "fcs.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "logicle",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Logicle",
+    "version": "1.0.2",
+    "operatorId": "0",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/logicle_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
