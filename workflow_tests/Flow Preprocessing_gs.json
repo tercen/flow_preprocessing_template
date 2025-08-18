@@ -4,7 +4,7 @@
  "isDeleted": false,
  "rev": "",
  "description": "Perform FCS files automated preprocessing: logicle transformation, live and single cells filtering, diagnostic plots, FCS export.",
- "name": "test_01",
+ "name": "Flow Preprocessing_gs",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -162,7 +162,7 @@
      "id": "rename_7cd50e9b-8211-469a-b839-54f597d5643b",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "ff4bed1c-3bdd-4963-bec5-4d710b6811fe",
+      "id": "8ad5d932-9326-4a81-9146-f03f308e386a",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
@@ -2563,8 +2563,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 586.505,
-     "y": 526.5
+     "x": 554.505,
+     "y": 525.5
     }
    },
    "state": {
@@ -4938,8 +4938,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -4.0,
-  "y": -250.0
+  "x": 16.0,
+  "y": -319.0
  },
  "scale": 1.0
 }
