@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b",
+ "id": "25219c0888730f5b42e5594fa0f6abd4839a512bccfc62e4cf59a9e0d9b82e44",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Compensation",
+ "name": "97b2ddab-ed55-49be-acfc-97aa5b07bccf",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b"
+   "value": "25219c0888730f5b42e5594fa0f6abd4839a512bccfc62e4cf59a9e0d9b82e44"
   }
  ],
  "url": {
@@ -35,12 +35,12 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 6400,
+ "nRows": 1,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "b00c59a1-c88a-4f5c-8047-b66d3c18d0a9",
-   "name": "comp_1",
+   "id": "14c52f25-c068-4a14-b9af-964460838a70",
+   "name": "live.filename",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -54,8 +54,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "32418acb-f691-44ea-9d15-ebe65d2b2df1",
-   "name": "comp_2",
+   "id": "ab43c030-df4f-4af7-aee3-dea9b0324627",
+   "name": "live.mimetype",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -69,9 +69,9 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "4ba2e2b1-72e5-480d-b1a1-fdd2dd35516e",
-   "name": "comp_value",
-   "type": "double",
+   "id": "41775f1c-c81c-4071-93be-4d43c7f55f03",
+   "name": "live.checksum",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -84,8 +84,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "9a322bfd-aaf7-4676-8b47-f647ba2153bd",
-   "name": "filename",
+   "id": "c76488c3-1868-40ef-9d0f-138edf815048",
+   "name": ".content",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -98,88 +98,47 @@
    }
   }
  ],
- "dataDirectory": "data/1d/21/1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b",
+ "dataDirectory": "data/25/21/25219c0888730f5b42e5594fa0f6abd4839a512bccfc62e4cf59a9e0d9b82e44",
  "relation": {
   "kind": "Relation",
-  "id": "40a95a3d-24f3-426d-a5a0-e353224b3825"
+  "id": "fd6378f8-b7bb-46dc-91eb-aa93392a21f2"
  },
- "size": 155288,
+ "size": 162664,
  "query": {
   "kind": "CubeQuery",
   "relation": {
-   "kind": "RenameRelation",
-   "id": "d9896785-cb0f-44b8-88b3-4717c9c9c971",
-   "relation": {
-    "kind": "InMemoryRelation",
-    "id": "3c446738-3f4b-4be9-af05-acf4de73ad6e",
-    "inMemoryTable": {
-     "kind": "Table",
-     "nRows": 1,
-     "properties": {
-      "kind": "TableProperties",
-      "name": "",
-      "sortOrder": [],
-      "ascending": true
+   "kind": "CompositeRelation",
+   "id": "867d63f9-1b38-4c2f-bd30-82cab21e040c",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "event_id"
+      ],
+      "rColumns": [
+       "event_id"
+      ]
      },
-     "columns": [
-      {
-       "kind": "Column",
-       "id": "documentId",
-       "name": "documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "cValues": {
-        "kind": "CValues"
-       },
-       "values": [
-        "b2a6187d-68b0-4b7f-9a47-1ab995f20479"
-       ]
-      },
-      {
-       "kind": "Column",
-       "id": ".documentId",
-       "name": ".documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "cValues": {
-        "kind": "CValues"
-       },
-       "values": [
-        "workflow_tests/OMIP-069 - FCS Files (1k Events).zip"
-       ]
-      }
-     ]
+     "rightRelation": {
+      "kind": "SimpleRelation",
+      "id": "d21fbd6521180c1fecf8732222e8a4b19b9f974df13bbd665a9a217483d220cc",
+      "index": 1
+     }
     }
-   },
-   "inNames": [
-    "documentId",
-    ".documentId"
    ],
-   "outNames": [
-    "documentId",
-    ".documentId"
-   ]
+   "mainRelation": {
+    "kind": "SimpleRelation",
+    "id": "458d710adf152de182d4fe0c4300d086b14fdeb05732c4840d753056af50dc7c",
+    "index": 0
+   }
   },
   "colColumns": [
    {
     "kind": "Factor",
-    "name": "documentId",
+    "name": "filename",
     "type": "string"
    }
   ],
@@ -191,8 +150,8 @@
     "chartType": "point",
     "yAxis": {
      "kind": "Factor",
-     "name": "",
-     "type": "string"
+     "name": "SSC-A",
+     "type": "double"
     },
     "yAxisSettings": {
      "kind": "AxisSettings",
@@ -200,15 +159,26 @@
     },
     "xAxis": {
      "kind": "Factor",
-     "name": "",
-     "type": "string"
+     "name": "FSC-A",
+     "type": "double"
     },
     "xAxisSettings": {
      "kind": "AxisSettings",
      "meta": []
     },
     "errors": [],
-    "labels": [],
+    "labels": [
+     {
+      "kind": "Factor",
+      "name": "filename",
+      "type": "string"
+     },
+     {
+      "kind": "Factor",
+      "name": "event_id",
+      "type": "double"
+     }
+    ],
     "colors": [],
     "preprocessors": []
    }
@@ -220,38 +190,48 @@
   },
   "operatorSettings": {
    "kind": "OperatorSettings",
-   "namespace": "data",
+   "namespace": "live",
    "operatorRef": {
     "kind": "OperatorRef",
-    "name": "FCS",
-    "version": "2.4.0",
-    "operatorId": "6",
-    "operatorKind": "ROperator",
+    "name": "Automated Gating",
+    "version": "1.0.5",
+    "operatorId": "14",
+    "operatorKind": "DockerOperator",
     "propertyValues": [
      {
       "kind": "PropertyValue",
-      "name": "which.lines",
+      "name": "gating_method",
+      "value": "2D - Ellipsoid gate"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "gate_name",
+      "value": "Gate"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "stringency",
+      "value": "0.05"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": "750"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": "750"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
       "value": "-1"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "gather_channels",
-      "value": "false"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "ungather_pattern",
-      "value": "time|event"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "truncate_max_range",
-      "value": "true"
      }
     ],
     "url": {
      "kind": "Url",
-     "uri": "https://github.com/tercen/read_fcs_operator"
+     "uri": "https://github.com/tercen/automated_gating_operator"
     },
     "operatorSpec": {
      "kind": "OperatorSpec",

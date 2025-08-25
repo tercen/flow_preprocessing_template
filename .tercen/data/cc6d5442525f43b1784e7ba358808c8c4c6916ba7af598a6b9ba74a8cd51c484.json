@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b",
+ "id": "cc6d5442525f43b1784e7ba358808c8c4c6916ba7af598a6b9ba74a8cd51c484",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "a140fd90-66ff-11f0-9f08-af610394dc37",
+ "name": "314b7fe9-3193-4698-9dc1-6168567dcb75",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b"
+   "value": "cc6d5442525f43b1784e7ba358808c8c4c6916ba7af598a6b9ba74a8cd51c484"
   }
  ],
  "url": {
@@ -35,13 +35,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 184000,
+ "nRows": 4000,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "0da84fe4-ef1a-4ef0-b0c6-9abe5fd0ee2a",
-   "name": ".ci",
-   "type": "int32",
+   "id": "6ea5f72c-bb9d-4aa2-aa0f-ba66c80e2e7c",
+   "name": "live._Gate",
+   "type": "double",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -54,9 +54,9 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "54531cd4-5267-4c2f-98a3-3f026c48f021",
-   "name": ".ri",
-   "type": "int32",
+   "id": "4d1928c5-b319-4fe7-b2bc-eb36286ee2f5",
+   "name": "live.filename",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -69,8 +69,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "0f164aef-ee82-40cd-9249-ffc2aafe2229",
-   "name": "logicle.value",
+   "id": "453baa26-284c-4ffa-9dd0-31250ddae37b",
+   "name": "live.event_id",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -83,89 +83,51 @@
    }
   }
  ],
- "dataDirectory": "data/a9/38/a9382ffa52e7e003e9d9132ca3a4ef77d30741e0ceb5d60a1137af6b5bf8e90b",
+ "dataDirectory": "data/cc/6d/cc6d5442525f43b1784e7ba358808c8c4c6916ba7af598a6b9ba74a8cd51c484",
  "relation": {
   "kind": "Relation",
-  "id": "1203d621-4a10-43ba-9e09-3e554fd511e4"
+  "id": "a29c021b-8bbc-4b35-90c3-d8cc647ede6f"
  },
- "size": 1700128,
+ "size": 49784,
  "query": {
   "kind": "CubeQuery",
   "relation": {
-   "kind": "GatherRelation",
-   "id": "9d764eff-cf4d-4575-a0a0-1c684d3c1867",
-   "relation": {
+   "kind": "CompositeRelation",
+   "id": "867d63f9-1b38-4c2f-bd30-82cab21e040c",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "event_id"
+      ],
+      "rColumns": [
+       "event_id"
+      ]
+     },
+     "rightRelation": {
+      "kind": "SimpleRelation",
+      "id": "d21fbd6521180c1fecf8732222e8a4b19b9f974df13bbd665a9a217483d220cc",
+      "index": 1
+     }
+    }
+   ],
+   "mainRelation": {
     "kind": "SimpleRelation",
     "id": "458d710adf152de182d4fe0c4300d086b14fdeb05732c4840d753056af50dc7c",
     "index": 0
-   },
-   "names": [
-    "SSC-H",
-    "SSC-A",
-    "FSC-H",
-    "FSC-A",
-    "SSC-B-H",
-    "SSC-B-A",
-    "BUV395-A",
-    "LIVE DEAD Blue-A",
-    "BUV496-A",
-    "BUV615-A",
-    "BUV563-A",
-    "BUV661-A",
-    "BUV737-A",
-    "BUV805-A",
-    "BV421-A",
-    "Super Bright 436-A",
-    "eFluor 450-A",
-    "BV480-A",
-    "BV510-A",
-    "Pacific Orange-A",
-    "BV570-A",
-    "BV605-A",
-    "BV650-A",
-    "BV711-A",
-    "BV750-A",
-    "BV785-A",
-    "BB515-A",
-    "FITC-A",
-    "Spark Blue 550-A",
-    "PerCP-A",
-    "PerCP-Cy5.5-A",
-    "PerCP-eFluor 710-A",
-    "PE-Fire810-A",
-    "PE-A",
-    "CF568-A",
-    "PE-Dazzle594-A",
-    "PE-Alexa Fluor 610-A",
-    "PE-Cy5-A",
-    "PE-Alexa Fluor 700-A",
-    "PE-Cy7-A",
-    "APC-A",
-    "Alexa Fluor 647-A",
-    "Spark NIR685-A",
-    "APC-R700-A",
-    "APC-H7-A",
-    "APC-Fire810-A"
-   ],
-   "valueName": "fcs.value",
-   "variableName": "fcs.variable",
-   "valueType": "double",
-   "gatherType": ""
+   }
   },
   "colColumns": [
    {
     "kind": "Factor",
-    "name": "event_id",
-    "type": "double"
-   }
-  ],
-  "rowColumns": [
-   {
-    "kind": "Factor",
-    "name": "fcs.variable",
+    "name": "filename",
     "type": "string"
    }
   ],
+  "rowColumns": [],
   "axisQueries": [
    {
     "kind": "CubeAxisQuery",
@@ -173,7 +135,7 @@
     "chartType": "point",
     "yAxis": {
      "kind": "Factor",
-     "name": "fcs.value",
+     "name": "SSC-A",
      "type": "double"
     },
     "yAxisSettings": {
@@ -182,15 +144,26 @@
     },
     "xAxis": {
      "kind": "Factor",
-     "name": "",
-     "type": "string"
+     "name": "FSC-A",
+     "type": "double"
     },
     "xAxisSettings": {
      "kind": "AxisSettings",
      "meta": []
     },
     "errors": [],
-    "labels": [],
+    "labels": [
+     {
+      "kind": "Factor",
+      "name": "filename",
+      "type": "string"
+     },
+     {
+      "kind": "Factor",
+      "name": "event_id",
+      "type": "double"
+     }
+    ],
     "colors": [],
     "preprocessors": []
    }
@@ -202,17 +175,48 @@
   },
   "operatorSettings": {
    "kind": "OperatorSettings",
-   "namespace": "logicle",
+   "namespace": "live",
    "operatorRef": {
     "kind": "OperatorRef",
-    "name": "Logicle",
-    "version": "1.0.2",
-    "operatorId": "1",
-    "operatorKind": "ROperator",
-    "propertyValues": [],
+    "name": "Automated Gating",
+    "version": "1.0.5",
+    "operatorId": "14",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "gating_method",
+      "value": "2D - Ellipsoid gate"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "gate_name",
+      "value": "Gate"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "stringency",
+      "value": "0.05"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": "750"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": "750"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     }
+    ],
     "url": {
      "kind": "Url",
-     "uri": "https://github.com/tercen/logicle_operator"
+     "uri": "https://github.com/tercen/automated_gating_operator"
     },
     "operatorSpec": {
      "kind": "OperatorSpec",

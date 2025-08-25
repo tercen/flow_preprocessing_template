@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b",
+ "id": "a10495674d4fa99a7571f5295670fc7a7b4793b40d112a815b578a6fcc466263",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Compensation",
+ "name": "16daf7b0-8193-11f0-ad0a-4905c92987d7",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b"
+   "value": "a10495674d4fa99a7571f5295670fc7a7b4793b40d112a815b578a6fcc466263"
   }
  ],
  "url": {
@@ -35,12 +35,12 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 6400,
+ "nRows": 1,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "b00c59a1-c88a-4f5c-8047-b66d3c18d0a9",
-   "name": "comp_1",
+   "id": "0728a8d4-8dca-43c9-a11c-976cbc04b151",
+   "name": "report.filename",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -54,8 +54,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "32418acb-f691-44ea-9d15-ebe65d2b2df1",
-   "name": "comp_2",
+   "id": "ce7ce3db-7e72-49f1-b051-199004641fb7",
+   "name": "report.mimetype",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -69,9 +69,9 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "4ba2e2b1-72e5-480d-b1a1-fdd2dd35516e",
-   "name": "comp_value",
-   "type": "double",
+   "id": "01e3684a-e8ee-4668-b483-b760454b0480",
+   "name": "report.checksum",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -84,8 +84,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "9a322bfd-aaf7-4676-8b47-f647ba2153bd",
-   "name": "filename",
+   "id": "4a685327-f6e9-4908-a68e-8ec9b2dab472",
+   "name": ".content",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -98,91 +98,30 @@
    }
   }
  ],
- "dataDirectory": "data/1d/21/1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b",
+ "dataDirectory": "data/a1/04/a10495674d4fa99a7571f5295670fc7a7b4793b40d112a815b578a6fcc466263",
  "relation": {
   "kind": "Relation",
-  "id": "40a95a3d-24f3-426d-a5a0-e353224b3825"
+  "id": "ade44396-2765-4eb1-8ce6-b8c31d973dd4"
  },
- "size": 155288,
+ "size": 1097416,
  "query": {
   "kind": "CubeQuery",
   "relation": {
-   "kind": "RenameRelation",
-   "id": "d9896785-cb0f-44b8-88b3-4717c9c9c971",
-   "relation": {
-    "kind": "InMemoryRelation",
-    "id": "3c446738-3f4b-4be9-af05-acf4de73ad6e",
-    "inMemoryTable": {
-     "kind": "Table",
-     "nRows": 1,
-     "properties": {
-      "kind": "TableProperties",
-      "name": "",
-      "sortOrder": [],
-      "ascending": true
-     },
-     "columns": [
-      {
-       "kind": "Column",
-       "id": "documentId",
-       "name": "documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "cValues": {
-        "kind": "CValues"
-       },
-       "values": [
-        "b2a6187d-68b0-4b7f-9a47-1ab995f20479"
-       ]
-      },
-      {
-       "kind": "Column",
-       "id": ".documentId",
-       "name": ".documentId",
-       "type": "string",
-       "nRows": 1,
-       "size": -1,
-       "metaData": {
-        "kind": "ColumnSchemaMetaData",
-        "sort": [],
-        "ascending": true,
-        "quartiles": [],
-        "properties": []
-       },
-       "cValues": {
-        "kind": "CValues"
-       },
-       "values": [
-        "workflow_tests/OMIP-069 - FCS Files (1k Events).zip"
-       ]
-      }
-     ]
-    }
-   },
-   "inNames": [
-    "documentId",
-    ".documentId"
-   ],
-   "outNames": [
-    "documentId",
-    ".documentId"
-   ]
-  },
-  "colColumns": [
-   {
-    "kind": "Factor",
-    "name": "documentId",
-    "type": "string"
+   "kind": "InMemoryRelation",
+   "id": "a9e95bb7-d244-4c24-93f2-157e15c0477c",
+   "inMemoryTable": {
+    "kind": "Table",
+    "nRows": 0,
+    "properties": {
+     "kind": "TableProperties",
+     "name": "",
+     "sortOrder": [],
+     "ascending": true
+    },
+    "columns": []
    }
-  ],
+  },
+  "colColumns": [],
   "rowColumns": [],
   "axisQueries": [
    {
@@ -220,38 +159,33 @@
   },
   "operatorSettings": {
    "kind": "OperatorSettings",
-   "namespace": "data",
+   "namespace": "report",
    "operatorRef": {
     "kind": "OperatorRef",
-    "name": "FCS",
-    "version": "2.4.0",
-    "operatorId": "6",
-    "operatorKind": "ROperator",
+    "name": "Export Report",
+    "version": "0.2.4",
+    "operatorId": "3",
+    "operatorKind": "DockerOperator",
     "propertyValues": [
      {
       "kind": "PropertyValue",
-      "name": "which.lines",
-      "value": "-1"
+      "name": "OutputFormat",
+      "value": "MS-PowerPoint (*.pptx)"
      },
      {
       "kind": "PropertyValue",
-      "name": "gather_channels",
-      "value": "false"
+      "name": "SVGOptimization",
+      "value": "Bitmap Auto"
      },
      {
       "kind": "PropertyValue",
-      "name": "ungather_pattern",
-      "value": "time|event"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "truncate_max_range",
-      "value": "true"
+      "name": "LabelPosition",
+      "value": "Right"
      }
     ],
     "url": {
      "kind": "Url",
-     "uri": "https://github.com/tercen/read_fcs_operator"
+     "uri": "https://github.com/tercen/export_operator"
     },
     "operatorSpec": {
      "kind": "OperatorSpec",
