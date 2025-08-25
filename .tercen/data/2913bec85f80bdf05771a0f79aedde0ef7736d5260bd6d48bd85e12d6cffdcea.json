@@ -334,7 +334,7 @@
     "kind": "OperatorRef",
     "name": "PeacoQC",
     "version": "0.3.7",
-    "operatorId": "13",
+    "operatorId": "12",
     "operatorKind": "ROperator",
     "propertyValues": [
      {

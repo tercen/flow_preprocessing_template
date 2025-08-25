@@ -180,7 +180,7 @@
     "kind": "OperatorRef",
     "name": "Automated Gating",
     "version": "1.0.5",
-    "operatorId": "14",
+    "operatorId": "13",
     "operatorKind": "DockerOperator",
     "propertyValues": [
      {

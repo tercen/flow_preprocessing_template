@@ -459,7 +459,7 @@
     "kind": "OperatorRef",
     "name": "Plot",
     "version": "1.0.8",
-    "operatorId": "12",
+    "operatorId": "11",
     "operatorKind": "DockerOperator",
     "propertyValues": [
      {

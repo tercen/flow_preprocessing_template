@@ -164,7 +164,7 @@
     "kind": "OperatorRef",
     "name": "Export Report",
     "version": "0.2.4",
-    "operatorId": "3",
+    "operatorId": "2",
     "operatorKind": "DockerOperator",
     "propertyValues": [
      {
