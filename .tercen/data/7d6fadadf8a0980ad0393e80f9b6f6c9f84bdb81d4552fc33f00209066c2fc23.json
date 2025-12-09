@@ -50,7 +50,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   }
  ],
  "dataDirectory": "data/7d/6f/7d6fadadf8a0980ad0393e80f9b6f6c9f84bdb81d4552fc33f00209066c2fc23",
@@ -59,6 +60,7 @@
   "id": "47891d36-2e64-42e9-ad9d-05d6c9f945b9"
  },
  "size": 64328,
+ "storageSize": 64328.0,
  "queryHash": "3c9edf26a8ea037da4461874e1b13aa3",
  "queryTableType": "column",
  "query": {

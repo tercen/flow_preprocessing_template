@@ -1,6 +1,6 @@
 {
  "kind": "CubeQueryTableSchema",
- "id": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "id": "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -23,13 +23,13 @@
  "meta": [
   {
    "kind": "Pair",
-   "key": "qc.QC_flag.size_in_bytes",
-   "value": "128"
+   "key": "logicle..variable.size_in_bytes",
+   "value": "960"
   },
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b"
+   "value": "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923"
   }
  ],
  "url": {
@@ -40,12 +40,12 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 2,
+ "nRows": 46,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "3ac28e5d-d455-4109-a8c1-7a0b89b2941a",
-   "name": "qc.QC_flag",
+   "id": "4d523bd1-276d-4625-9135-f6e2bc970a65",
+   "name": "logicle..variable",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -59,20 +59,20 @@
    "storageSize": 0.0
   }
  ],
- "dataDirectory": "data/14/87/14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "dataDirectory": "data/53/55/5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923",
  "relation": {
   "kind": "Relation",
-  "id": "b2d68b39-2aa9-44d1-a7e8-f4aba22144b8"
+  "id": "e8f7d99b-c05a-4c0c-95b0-fb6b1d7a08da"
  },
- "size": 1768,
- "storageSize": 1768.0,
- "queryHash": "47d1e58fc4e0ae72cfb3664ebef767c9",
+ "size": 9880,
+ "storageSize": 9880.0,
+ "queryHash": "b26c1d9b4c390b488941c9b79270a3f3",
  "queryTableType": "row",
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "Relation",
-   "id": "e3a5c060-fe86-4a8f-abf3-fead4cf511d2"
+   "id": "2dd8045f-9244-4c14-a258-9a1ea00b9e53"
   },
   "colColumns": [],
   "rowColumns": [],

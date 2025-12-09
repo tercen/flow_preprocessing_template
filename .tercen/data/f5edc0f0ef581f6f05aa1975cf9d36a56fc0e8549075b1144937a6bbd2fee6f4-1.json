@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "d21fbd6521180c1fecf8732222e8a4b19b9f974df13bbd665a9a217483d220cc",
+ "id": "f5edc0f0ef581f6f05aa1975cf9d36a56fc0e8549075b1144937a6bbd2fee6f4-1",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Observations",
+ "name": "Summary",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "d21fbd6521180c1fecf8732222e8a4b19b9f974df13bbd665a9a217483d220cc"
+   "value": "f5edc0f0ef581f6f05aa1975cf9d36a56fc0e8549075b1144937a6bbd2fee6f4"
   }
  ],
  "url": {
@@ -35,13 +35,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 4000,
+ "nRows": 1,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "4099d452-227d-4141-824d-22e4951fd7db",
-   "name": "event_id",
-   "type": "double",
+   "id": "ea242cc6-69a3-47fd-b0c5-dac71a397371",
+   "name": "filename",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -55,8 +55,24 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "177359db-f8e8-42a9-ac6b-f20535e354d9",
-   "name": "filename",
+   "id": "508e7a4f-c89b-411a-8bbc-1e42582fd52b",
+   "name": "mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": 0.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3655cc79-2048-4019-881a-c07288383c5c",
+   "name": ".content",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -70,13 +86,13 @@
    "storageSize": 0.0
   }
  ],
- "dataDirectory": "data/d2/1f/d21fbd6521180c1fecf8732222e8a4b19b9f974df13bbd665a9a217483d220cc",
+ "dataDirectory": "data/f5/ed/f5edc0f0ef581f6f05aa1975cf9d36a56fc0e8549075b1144937a6bbd2fee6f4",
  "relation": {
   "kind": "Relation",
-  "id": "a7948350-b3fc-4a9a-85d1-878e2095c476"
+  "id": "7065222e-b135-44bf-a977-28dcc25bff94"
  },
- "size": 20904,
- "storageSize": 20904.0,
+ "size": 760,
+ "storageSize": 760.0,
  "query": {
   "kind": "CubeQuery",
   "relation": {
@@ -84,7 +100,7 @@
    "id": "d9896785-cb0f-44b8-88b3-4717c9c9c971",
    "relation": {
     "kind": "InMemoryRelation",
-    "id": "468bc3dd-cff5-402a-9362-765665b97606",
+    "id": "da5b1d1a-d742-4cc8-98fb-c09488b7711b",
     "inMemoryTable": {
      "kind": "Table",
      "nRows": 1,

@@ -1,10 +1,10 @@
 {
  "kind": "CubeQueryTableSchema",
- "id": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "id": "7d6fadadf8a0980ad0393e80f9b6f6c9f84bdb81d4552fc33f00209066c2fc23-1",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "row",
+ "name": "column",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -23,13 +23,8 @@
  "meta": [
   {
    "kind": "Pair",
-   "key": "qc.QC_flag.size_in_bytes",
-   "value": "128"
-  },
-  {
-   "kind": "Pair",
    "key": "SHA256",
-   "value": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b"
+   "value": "7d6fadadf8a0980ad0393e80f9b6f6c9f84bdb81d4552fc33f00209066c2fc23"
   }
  ],
  "url": {
@@ -40,13 +35,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 2,
+ "nRows": 4000,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "3ac28e5d-d455-4109-a8c1-7a0b89b2941a",
-   "name": "qc.QC_flag",
-   "type": "string",
+   "id": "a2683398-8fd0-46f3-b512-3cc1240f1063",
+   "name": "event_id",
+   "type": "double",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -59,20 +54,20 @@
    "storageSize": 0.0
   }
  ],
- "dataDirectory": "data/14/87/14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "dataDirectory": "data/7d/6f/7d6fadadf8a0980ad0393e80f9b6f6c9f84bdb81d4552fc33f00209066c2fc23",
  "relation": {
   "kind": "Relation",
-  "id": "b2d68b39-2aa9-44d1-a7e8-f4aba22144b8"
+  "id": "47891d36-2e64-42e9-ad9d-05d6c9f945b9"
  },
- "size": 1768,
- "storageSize": 1768.0,
- "queryHash": "47d1e58fc4e0ae72cfb3664ebef767c9",
- "queryTableType": "row",
+ "size": 64328,
+ "storageSize": 64328.0,
+ "queryHash": "3c9edf26a8ea037da4461874e1b13aa3",
+ "queryTableType": "column",
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "Relation",
-   "id": "e3a5c060-fe86-4a8f-abf3-fead4cf511d2"
+   "id": "3ff9151b-d618-457b-b23b-e8b9285cca37"
   },
   "colColumns": [],
   "rowColumns": [],

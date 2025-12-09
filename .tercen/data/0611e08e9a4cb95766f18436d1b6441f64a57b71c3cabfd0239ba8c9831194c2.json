@@ -50,7 +50,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -65,7 +66,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -80,7 +82,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   }
  ],
  "dataDirectory": "data/06/11/0611e08e9a4cb95766f18436d1b6441f64a57b71c3cabfd0239ba8c9831194c2",
@@ -89,6 +92,7 @@
   "id": "ec058f61-ce46-4fba-9794-bc3ddfe5ce59"
  },
  "size": 555552,
+ "storageSize": 555552.0,
  "query": {
   "kind": "CubeQuery",
   "relation": {

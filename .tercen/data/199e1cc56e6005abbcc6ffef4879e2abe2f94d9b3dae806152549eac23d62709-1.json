@@ -1,10 +1,10 @@
 {
  "kind": "CubeQueryTableSchema",
- "id": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "id": "199e1cc56e6005abbcc6ffef4879e2abe2f94d9b3dae806152549eac23d62709-1",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "row",
+ "name": "column",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -23,13 +23,13 @@
  "meta": [
   {
    "kind": "Pair",
-   "key": "qc.QC_flag.size_in_bytes",
-   "value": "128"
+   "key": "filename.size_in_bytes",
+   "value": "106096"
   },
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b"
+   "value": "199e1cc56e6005abbcc6ffef4879e2abe2f94d9b3dae806152549eac23d62709"
   }
  ],
  "url": {
@@ -40,13 +40,45 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 2,
+ "nRows": 4000,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "3ac28e5d-d455-4109-a8c1-7a0b89b2941a",
-   "name": "qc.QC_flag",
+   "id": "3887a140-85cc-4970-aad8-f2b85ba2327e",
+   "name": "filename",
    "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": 0.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e9d3b317-20b8-4a1a-a31f-b93b62967798",
+   "name": "Time",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": 0.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "20395171-5204-44b7-8d42-2e3f8fe2d7f6",
+   "name": "logicle..event_id",
+   "type": "double",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -59,20 +91,20 @@
    "storageSize": 0.0
   }
  ],
- "dataDirectory": "data/14/87/14874edd36f1bafdf6efde19642bf6acbddb5391b3878e6d25dba6417728af0b",
+ "dataDirectory": "data/19/9e/199e1cc56e6005abbcc6ffef4879e2abe2f94d9b3dae806152549eac23d62709",
  "relation": {
   "kind": "Relation",
-  "id": "b2d68b39-2aa9-44d1-a7e8-f4aba22144b8"
+  "id": "52ceba09-9746-4aa0-8bc8-3b5c46be41dc"
  },
- "size": 1768,
- "storageSize": 1768.0,
- "queryHash": "47d1e58fc4e0ae72cfb3664ebef767c9",
- "queryTableType": "row",
+ "size": 694864,
+ "storageSize": 694864.0,
+ "queryHash": "3c9edf26a8ea037da4461874e1b46c2d",
+ "queryTableType": "column",
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "Relation",
-   "id": "e3a5c060-fe86-4a8f-abf3-fead4cf511d2"
+   "id": "3831af2e-c43a-44c2-99e8-1ae31f16f0fe"
   },
   "colColumns": [],
   "rowColumns": [],

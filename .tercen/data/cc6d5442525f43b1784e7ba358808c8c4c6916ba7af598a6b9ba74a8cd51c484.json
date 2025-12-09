@@ -50,7 +50,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -65,7 +66,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -80,7 +82,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   }
  ],
  "dataDirectory": "data/cc/6d/cc6d5442525f43b1784e7ba358808c8c4c6916ba7af598a6b9ba74a8cd51c484",
@@ -89,6 +92,7 @@
   "id": "a29c021b-8bbc-4b35-90c3-d8cc647ede6f"
  },
  "size": 49784,
+ "storageSize": 49784.0,
  "query": {
   "kind": "CubeQuery",
   "relation": {
@@ -180,7 +184,7 @@
     "kind": "OperatorRef",
     "name": "Automated Gating",
     "version": "1.0.5",
-    "operatorId": "13",
+    "operatorId": "9",
     "operatorKind": "DockerOperator",
     "propertyValues": [
      {

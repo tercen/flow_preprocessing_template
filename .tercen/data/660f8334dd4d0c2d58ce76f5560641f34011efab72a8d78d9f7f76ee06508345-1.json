@@ -1,6 +1,6 @@
 {
  "kind": "ComputedTableSchema",
- "id": "660f8334dd4d0c2d58ce76f5560641f34011efab72a8d78d9f7f76ee06508345",
+ "id": "660f8334dd4d0c2d58ce76f5560641f34011efab72a8d78d9f7f76ee06508345-1",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -143,19 +143,19 @@
         ".ri"
        ],
        "rColumns": [
-        "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923._rids"
+        "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1._rids"
        ]
       },
       "rightRelation": {
        "kind": "SimpleRelation",
-       "id": "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923",
+       "id": "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1",
        "index": 1
       }
      }
     ],
     "mainRelation": {
      "kind": "SimpleRelation",
-     "id": "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff",
+     "id": "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff-1",
      "index": 0
     }
    },
@@ -165,11 +165,11 @@
     "hist1.mids",
     "hist1.bins",
     ".ri",
-    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff._rids",
-    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff.tlbId",
+    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff-1._rids",
+    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff-1.tlbId",
     "logicle..variable",
-    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923._rids",
-    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923.tlbId",
+    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1._rids",
+    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1.tlbId",
     "logicle..variable"
    ],
    "outNames": [
@@ -178,11 +178,11 @@
     "hist1.mids",
     "hist1.bins",
     ".ri",
-    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff._rids",
-    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff.tlbId",
+    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff-1._rids",
+    "cee3c21232e2aec2f5d2ade3517f86333c7b6e73cf99ee1fc3c606e611654cff-1.tlbId",
     "logicle..variable",
-    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923._rids",
-    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923.tlbId",
+    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1._rids",
+    "5355e92d5f7b028c5c551ac0d1b88c9142aad541ca42c4cec0109146e21fb923-1.tlbId",
     "hist1..variable"
    ]
   },

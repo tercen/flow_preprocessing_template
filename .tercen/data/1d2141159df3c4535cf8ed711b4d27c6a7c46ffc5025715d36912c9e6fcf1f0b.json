@@ -50,7 +50,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -65,7 +66,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -80,7 +82,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -95,7 +98,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   }
  ],
  "dataDirectory": "data/1d/21/1d2141159df3c4535cf8ed711b4d27c6a7c46ffc5025715d36912c9e6fcf1f0b",
@@ -104,6 +108,7 @@
   "id": "40a95a3d-24f3-426d-a5a0-e353224b3825"
  },
  "size": 155288,
+ "storageSize": 155288.0,
  "query": {
   "kind": "CubeQuery",
   "relation": {
@@ -111,7 +116,7 @@
    "id": "d9896785-cb0f-44b8-88b3-4717c9c9c971",
    "relation": {
     "kind": "InMemoryRelation",
-    "id": "ea0f1c1d-e56e-4557-9f9a-1c3b2696532c",
+    "id": "737027b0-36ad-4730-aff8-8600fe72190e",
     "inMemoryTable": {
      "kind": "Table",
      "nRows": 1,
@@ -136,6 +141,7 @@
         "quartiles": [],
         "properties": []
        },
+       "storageSize": 0.0,
        "cValues": {
         "kind": "CValues"
        },
@@ -157,6 +163,7 @@
         "quartiles": [],
         "properties": []
        },
+       "storageSize": 0.0,
        "cValues": {
         "kind": "CValues"
        },

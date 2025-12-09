@@ -55,7 +55,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -70,7 +71,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   },
   {
    "kind": "ColumnSchema",
@@ -85,7 +87,8 @@
     "ascending": true,
     "quartiles": [],
     "properties": []
-   }
+   },
+   "storageSize": 0.0
   }
  ],
  "dataDirectory": "data/19/9e/199e1cc56e6005abbcc6ffef4879e2abe2f94d9b3dae806152549eac23d62709",
@@ -94,6 +97,7 @@
   "id": "52ceba09-9746-4aa0-8bc8-3b5c46be41dc"
  },
  "size": 694864,
+ "storageSize": 694864.0,
  "queryHash": "3c9edf26a8ea037da4461874e1b46c2d",
  "queryTableType": "column",
  "query": {

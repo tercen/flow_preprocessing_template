@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "14",
+ "id": "13",
  "isDeleted": false,
  "rev": "",
  "description": "Perform FCS files automated preprocessing: logicle transformation, live and single cells filtering, diagnostic plots, FCS export.",
@@ -1218,7 +1218,7 @@
       "kind": "OperatorRef",
       "name": "PeacoQC",
       "version": "0.3.7",
-      "operatorId": "12",
+      "operatorId": "7",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -1524,7 +1524,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "1.0.8",
-      "operatorId": "11",
+      "operatorId": "8",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -2597,7 +2597,7 @@
       "kind": "OperatorRef",
       "name": "Automated Gating",
       "version": "1.0.5",
-      "operatorId": "13",
+      "operatorId": "9",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -4030,7 +4030,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "1.0.8",
-      "operatorId": "11",
+      "operatorId": "8",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
